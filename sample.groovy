@@ -1,3 +1,4 @@
+library 'sharedfile1'
 node
 {
   stage('checkout')
