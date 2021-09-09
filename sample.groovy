@@ -9,5 +9,9 @@ node
   {
     code_build()
   }
+  stage('upload')
+  {
+   nexus_upload() 
+  }
   
 }
